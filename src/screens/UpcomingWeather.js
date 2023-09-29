@@ -84,15 +84,15 @@ const UpcomingWeather = () => {
 }
 
 const styles = StyleSheet.create({
-  androidSafeArea: {
-    flex: 1,
-    backgroundColor: 'white',
-    paddingTop: Platform.OS === 'android' ? 25 : 0
-  },
+  // androidSafeArea: {
+  //   flex: 1,
+  //   backgroundColor: 'white',
+  //   paddingTop: Platform.OS === 'android' ? 25 : 0
+  // },
 
   container: {
     flex: 1,
-    marginTop: StatusBar.currentHeight || 0,
+    // marginTop: StatusBar.currentHeight || 0,
     backgroundColor: 'royalblue'
   },
 
